@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.4.0] - 2026-06-14 (TTS & Automation Release)
+### Added
+- Released `AI产品经理专业知识系统_v1.4_交互课件.html` with advanced architectural insights:
+  - Generative UI & Component fallback.
+  - RLHF/DPO Data Flywheel productization.
+  - LLM Guardrails & Trust & Safety design.
+- Implemented **native Web TTS engine (`window.speechSynthesis`)**:
+  - Adds a 🎧 / ⏸️ button for in-chapter audio reading.
+  - Supports pause/resume logic and real-time reading progress bar tracking.
+- Set up automated CI/CD deployment pipeline via GitHub Actions to sync static files to OCI node (`ipm.spd100.com`).
+
 ## [v1.3.0] - 2026-06-14 (Planning Stage)
 ### Added
 - Created `AI产品经理专业知识系统_v1.3持续优化方案.md`.
